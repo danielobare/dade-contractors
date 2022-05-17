@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 350px;
+    height: 100vh;
+    background: #efefef;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    top: 50%;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.card div h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.card div ul {
+    list-style: none;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.card ul li a {
+    color: #2980b9;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.card ul li a:hover {
+    color: black;
+}
+
+.card div h2 {
+    margin-top: 25px;
+}
+
+.card div p {
+    margin: 20px 0 25px 0;
+}
+
+.details li {
+    padding-bottom: 15px;
+}
+
+.card div .btn {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    transition: 0.2s;
+    border: 1px solid black;
+}
+
+.card div .btn:hover{
+    border-color: #2980b9;
+    background: #2980b9;
+    color: white;
+}
+
+.card:before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: #f6e58d;
+    bottom: 0;
+    right: -10px;
+    z-index: -1;
+    border-top-left-radius: 100px;
+    transition: 0.5s;
+}
+
+.card:hover:before {
+    transform: scale(10);
+}
