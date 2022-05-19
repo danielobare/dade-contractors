@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Poppins:wght@300&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;  
 }
-
+html{
+    background: url(/dade-contractors/assets/images/construction-2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .hero {
     text-align: center;
 }
@@ -16,8 +20,9 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: white;
+    /**background: white;*/
 } 
+
 
 
 .containerBox {

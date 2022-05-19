@@ -54,6 +54,7 @@ form.onsubmit = (e) => {
     !eField.classList.contains("error") &&
     !pField.classList.contains("error")
   ) {
-    window.location.href = "/dade-contractors/assets/pages/categories.html"
+    // window.location.href = form.getAttribute("action"); //redirecting user to the specified url which is inside action attribute of form tag
+    window.location.href = "/dade-contractors/assets/pages/login.html"
   }
 };
