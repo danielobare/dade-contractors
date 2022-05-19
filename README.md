@@ -1,4 +1,4 @@
-# DadeCcontractors
+# Dade Contractors
 Building clients are finding it difficult to find qualified construction contractors. To link contractors to clients seeking construction services.
 
 #### Website providing access to contractors with the ability to sign up, log in and access to contractors' profiles, 19 May, 2022
