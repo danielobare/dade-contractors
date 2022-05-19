@@ -29,8 +29,10 @@ body{
 
 .links:hover{
     color: blue;
-    border: 5px;
+    border: 0.5px;
+    border-style: inherit;
     border-radius: 2px;
+    font-size: larger;
 }
 
 
