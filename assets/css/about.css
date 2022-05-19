@@ -6,17 +6,36 @@
    background-size:100%,100%;
    padding-bottom: 20%;
    box-shadow: 1px 2px 2px 4px;
-   animation:slider 9s infinate linear;
    
 }
+   
+.slider{
+    width: 95%;
+    margin: 2%;
 
+}
+.slider ul{
+    display: flex;
+    padding-bottom:7%;
+    animation: slider  15s infinite linear;
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+    height: 150%;
+}
 @keyframes slider{
-    0%{background-image: url("../images/about/anton-dmitriev-kBKOaghy8mU-unsplash.jpg");}
+    0%{margin-left: 0%;}
+    25%{margin-left: 5%;}
 
-    25%{background-image: url("../images/about/project2.jpeg");}
+    50%{margin-left: -5%;}
+    75%{margin-left: -10%;}
 
-    50%{background-image: url("../images/about/project4.jpg");}
-  
+    
+   
 }
 .mapouter{
    
@@ -26,6 +45,13 @@
     padding-left: 20%;
     padding-top: 5%;
    
+}
+.headertext{
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 20px;
+
 }
 
 .footer{
@@ -45,6 +71,7 @@
 .partners{
     display: flex;
     position: relative;
+    min-width: auto;
     
 }
 .partners >img{
@@ -60,6 +87,7 @@
     font-weight: bolder;
     padding-left: 2%;
     justify-content: space-between;
+  
 }
 .submain >ul li{
     list-style: none;
@@ -70,6 +98,7 @@
     background-color: rgb(5, 5, 31);
     padding: 2%;
     color: white;
+   
 
 }
 .team >.member >img{
@@ -82,6 +111,5 @@
    
     display:inline-block;
     padding: 5%;
-  
 }
 
