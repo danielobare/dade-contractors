@@ -3,7 +3,7 @@ Building clients are finding it difficult to find qualified construction contrac
 
 #### Website providing access to contractors with the ability to sign up, log in and access to contractors' profiles, 19 May, 2022
 
-#### By **Dennis Mutinda, Daniel Obare Nyakundi, John Kamau, Zeitun Mohammed and Donald Brooks**
+#### By **Daniel Obare Nyakundi, Dennis Mutinda, git cheJohn Kamau, Zeitun Mohammed and Donald Brooks**
 
 ## Description
 
